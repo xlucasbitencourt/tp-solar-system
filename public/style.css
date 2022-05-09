@@ -1,0 +1,64 @@
+body {
+  background-image: url('./background.png');
+}
+
+header {
+  color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+.planetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nome-planeta {
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+.img-planeta {
+  transition: all 1s;
+  width: 220px;
+}
+
+.img-planeta:hover {
+  width: 300px;
+}
+
+.missoes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missao {
+  background-image: linear-gradient(rgba(70, 64, 65, 0.705), rgba(226, 128, 128, 0.808));
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  height: 350px;
+  margin: 10px 15px;
+  padding: 5px 15px;
+  width: 250px;
+}
+
+.missao p {
+  margin: 20px;
+}
+
+.nome-missao {
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
+  text-align: center;
+}

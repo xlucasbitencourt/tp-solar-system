@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 function PlanetCard({ planetName, planetImage }) {
   return (
     <div data-testid="planet-card">
-      <p data-testid="planet-name">{ planetName }</p>
-      <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+      <p className="nome-planeta" data-testid="planet-name">{ planetName }</p>
+      <img className="img-planeta" src={ planetImage } alt={ `Planeta ${planetName}` } />
     </div>
   );
 }

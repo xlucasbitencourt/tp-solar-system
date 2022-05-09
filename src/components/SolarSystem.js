@@ -7,8 +7,14 @@ function SolarSystem() { // requisito 2
   return (
     <div data-testid="solar-system">
       <Title headline="Planetas" />
-      {planets.map((pl) => ( // Pega cada componente do array planets, e chama pra cada um o PlanetCard
-        <PlanetCard key={ pl.name } planetName={ pl.name } planetImage={ pl.image } />))}
+      <div className="planetas-container">
+        {planets.map((pl) => ( // Pega cada componente do array planets, e chama pra cada um o PlanetCard
+          <PlanetCard
+            key={ pl.name }
+            planetName={ pl.name }
+            planetImage={ pl.image }
+          />))}
+      </div>
     </div>
   );
 }
