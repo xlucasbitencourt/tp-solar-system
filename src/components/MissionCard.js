@@ -14,7 +14,7 @@ function MissionCard({ name, year, country, destination }) {
 
 MissionCard.propTypes = { // essa declaração que não entendi muito bem porque, e a trybe não explicou direito
   name: PropTypes.string.isRequired,
-  year: PropTypes.number.isRequired,
+  year: PropTypes.string.isRequired,
   country: PropTypes.string.isRequired,
   destination: PropTypes.string.isRequired,
 };
