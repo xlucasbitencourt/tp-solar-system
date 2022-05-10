@@ -2,43 +2,25 @@ body {
   background-image: url('./background.png');
 }
 
-header {
+header, h2, .nome-planeta {
   color: aliceblue;
   font-size: 40px;
   text-align: center;
 }
 
-h2 {
-  color: aliceblue;
-  font-size: 40px;
-  text-align: center;
-}
-
-.planetas-container {
+.planetas-container, .missoes-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.nome-planeta {
-  color: aliceblue;
-  font-size: 30px;
-  text-align: center;
 }
 
 .img-planeta {
   transition: all 1s;
-  width: 220px;
+  width: 225px;
 }
 
 .img-planeta:hover {
   width: 300px;
-}
-
-.missoes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .missao {
