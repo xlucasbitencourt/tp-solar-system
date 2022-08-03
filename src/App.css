@@ -1,3 +1,47 @@
-.App {
+body {
+  background-image: url('./images/background.png');
+}
+
+header, h2, .nome-planeta {
+  color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+.planetas-container, .missoes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-planeta {
+  transition: all 1s;
+  width: 225px;
+}
+
+.img-planeta:hover {
+  width: 300px;
+}
+
+.missao {
+  background-image: linear-gradient(rgba(70, 64, 65, 0.705), rgba(226, 128, 128, 0.508));
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  height: 350px;
+  margin: 10px;
+  padding: 5px 15px;
+  width: 250px;
+}
+
+.missao p {
+  margin: 20px;
+  text-shadow: 1px 1px 4px white;
+}
+
+.nome-missao {
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
   text-align: center;
 }
